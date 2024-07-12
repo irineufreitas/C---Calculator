@@ -58,6 +58,7 @@ void displayHistory(const std::vector<std::string>& history) {
     }
 }
 
+// Main function
 int main() {
     Calculator* calc = new AdvancedCalculator();
     char op;
